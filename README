@@ -1,0 +1,40 @@
+# Directory strecture
+
+mini-project-1/
+├── datasets
+│   ├── test
+│   │   ├── test_emoticon.csv
+│   │   ├── test_feature.npz
+│   │   └── test_text_seq.csv
+│   ├── train
+│   │   ├── train_emoticon.csv
+│   │   ├── train_feature.npz
+│   │   └── train_text_seq.csv
+│   └── valid
+│       ├── valid_emoticon.csv
+│       ├── valid_feature.npz
+│       └── valid_text_seq.csv
+├── README
+├── requirements.txt
+├── 84.py
+└── 84.pdf
+(4 directories, 9 files)
+
+# How to run the code
+1. To run the python file:
+python 84.py
+
+2. Required libraries:
+numpy
+pandas
+sklearn
+tensorflow
+
+3. Output files:
+pred_feat.txt
+pred_emoticon.txt
+pred_text.txt
+pred_combined.txt
+
+# Note
+1. Please include the datasets in the same directory as the python file.
